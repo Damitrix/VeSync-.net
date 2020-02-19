@@ -60,6 +60,7 @@ Device Contains the following properties
 - Device Model
 - Firmware Version
 You can also turn on and off the device using the methods `TurnOn` and `TurnOff`
+### Example
 
     VeSync v = new VeSync("username","pass");
     Device[] Devices = v.GetDevices();
