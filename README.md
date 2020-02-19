@@ -8,3 +8,8 @@
         d.TurnOff();
         d.TurnOn();
     }
+
+To see the full return of the login you can call the snippet below. This will allow you to see things such as the profile image URL. 
+
+    v.LoginData
+    
