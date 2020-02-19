@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>VeSync-Wrapper</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This is an UNOFFICAL wrapper for VeSync smart switches.
+Cross Platform should work with .NET Core and .NET Framework</Description>
+    <Copyright>2020 Marcello Bachechi</Copyright>
+    <Authors>Marcello Bachechi</Authors>
+    <Company>Marcello Bachechi</Company>
+    <Product>VeSync .NET</Product>
+    <PackageProjectUrl>https://github.com/pilotkid/VeSync-.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pilotkid/VeSync-.net</RepositoryUrl>
+    <PackageIconUrl>https://static1.squarespace.com/static/5818ad4dd2b857d06f5182db/t/5aea3698575d1f6c11833d74/1573691135584/</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
