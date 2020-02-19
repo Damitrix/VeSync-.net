@@ -6,7 +6,7 @@ namespace TestApplication
     {
         static void Main(string[] args)
         {
-            VeSync v = new VeSync("Seb@creativemedium.net","Jasper44!", true);
+            VeSync v = new VeSync("username","pass");
             Console.WriteLine("========={Devices}=========\n\n\n");
             var x = v.GetDevices();
             int c = 0;
