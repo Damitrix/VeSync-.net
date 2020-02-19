@@ -5,6 +5,10 @@ using System.Text;
 
 public class Device
 {
+    /// <summary>
+    /// Used to enable the TurnOn and TurnOff methods
+    /// Not really a great way to do this.
+    /// </summary>
     internal VeSync vs;
     
     [JsonProperty("deviceName")]
@@ -34,11 +38,17 @@ public class Device
     [JsonProperty("currentFirmVersion")]
     public string FirmwareVersion { get; internal set; }
 
+    /// <summary>
+    /// Powers on the device
+    /// </summary>
     public void TurnOn()
     {
         vs.turn_on(this);
     }
 
+    /// <summary>
+    /// Powers off the device
+    /// </summary>
     public void TurnOff()
     {
         vs.turn_off(this);

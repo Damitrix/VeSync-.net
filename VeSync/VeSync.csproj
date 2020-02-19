@@ -12,11 +12,20 @@ Cross Platform should work with .NET Core and .NET Framework</Description>
     <Product>VeSync .NET</Product>
     <PackageProjectUrl>https://github.com/pilotkid/VeSync-.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pilotkid/VeSync-.net</RepositoryUrl>
-    <PackageIconUrl>https://static1.squarespace.com/static/5818ad4dd2b857d06f5182db/t/5aea3698575d1f6c11833d74/1573691135584/</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageIcon>vesync-app-logo.png</PackageIcon>
+    <Version>1.0.01</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="vesync-app-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
